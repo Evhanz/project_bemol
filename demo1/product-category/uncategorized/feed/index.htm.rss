@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Uncategorized &#8211; Lyfpro Demo 1</title>
+	<atom:link href="https://lyfpro.designervily.com/demo1/product-category/uncategorized/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lyfpro.designervily.com/demo1</link>
+	<description>Life Coach and Speaker WordPress Theme</description>
+	<lastBuildDate>Thu, 07 Jan 2021 09:18:44 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.6</generator>
+
+<image>
+	<url>https://lyfpro.designervily.com/demo1/wp-content/uploads/sites/2/2020/12/cropped-fevicon-32x32.png</url>
+	<title>Uncategorized &#8211; Lyfpro Demo 1</title>
+	<link>https://lyfpro.designervily.com/demo1</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using disk: enhanced (Page is feed) 
+Database Caching 46/50 queries in 0.009 seconds using disk
+
+Served from: lyfpro.designervily.com @ 2021-01-21 21:11:18 by W3 Total Cache
+-->

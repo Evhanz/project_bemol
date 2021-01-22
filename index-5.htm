@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js no-svg">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="https://gmpg.org/xfn/11">
+<title>Digicop &#8211; Security And CCTV WordPress Theme</title>
+<meta name='robots' content='noindex,nofollow' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="Digicop &raquo; Feed" href="https://digicop.designervily.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Digicop &raquo; Comments Feed" href="https://digicop.designervily.com/comments/feed/" />
+		<script>
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/digicop.designervily.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.6"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://digicop.designervily.com/wp-includes/css/dist/block-library/style.min.css?ver=5.6' media='all' />
+<link rel='stylesheet' id='designervily-landing-page-css'  href='//digicop.designervily.com/digicop-intro.css?ver=5.6' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='https://digicop.designervily.com/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.3.5' media='all' />
+<style id='rs-plugin-settings-inline-css'>
+#rs-demo-id {}
+</style>
+<link rel='stylesheet' id='dsvy-all-gfonts-css'  href='https://fonts.googleapis.com/css?family=Barlow%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%2Citalic%2Cregular%2C800%2C700%2Cregular%2C600%2C500&#038;ver=5.6' media='all' />
+<link rel='stylesheet' id='elementor-icons-css'  href='https://digicop.designervily.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.9.1' media='all' />
+<link rel='stylesheet' id='elementor-animations-css'  href='https://digicop.designervily.com/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.0.16' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css'  href='https://digicop.designervily.com/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.0.16' media='all' />
+<link rel='stylesheet' id='elementor-post-6-css'  href='https://digicop.designervily.com/wp-content/uploads/elementor/css/post-6.css?ver=1611056588' media='all' />
+<link rel='stylesheet' id='bootstrap-css'  href='https://digicop.designervily.com/wp-content/themes/digicop/libraries/bootstrap/css/bootstrap.min.css?ver=5.6' media='all' />
+<link rel='stylesheet' id='dsvy-all-style-css'  href='https://digicop.designervily.com/wp-content/themes/digicop/css/all.min.css?ver=5.6' media='all' />
+<link rel='stylesheet' id='magnific-popup-css'  href='https://digicop.designervily.com/wp-content/themes/digicop/libraries/magnific-popup/magnific-popup.css?ver=5.6' media='all' />
+<link rel='stylesheet' id='dsvy-base-icons-css'  href='https://digicop.designervily.com/wp-content/themes/digicop/libraries/designervily-base-icons/css/designervily-base-icons.css?ver=5.6' media='all' />
+<link rel='stylesheet' id='balloon-css'  href='https://digicop.designervily.com/wp-content/themes/digicop/libraries/balloon/balloon.min.css?ver=5.6' media='all' />
+<link rel='stylesheet' id='dsvy-dynamic-style-css'  href='https://digicop.designervily.com/wp-content/dsvy-digicop-css/1/theme-style.min.css?ver=639815' media='all' />
+<link rel='stylesheet' id='dsvy-responsive-style-css'  href='https://digicop.designervily.com/wp-content/themes/digicop/css/responsive.min.css?ver=5.6' media='all' />
+<link rel='stylesheet' id='elementor-post-12608-css'  href='https://digicop.designervily.com/wp-content/uploads/elementor/css/post-12608.css?ver=1611056588' media='all' />
+<script src='https://digicop.designervily.com/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script src='https://digicop.designervily.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script src='https://digicop.designervily.com/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.3.5' id='tp-tools-js'></script>
+<script src='https://digicop.designervily.com/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.3.5' id='revmin-js'></script>
+<script src='https://digicop.designervily.com/wp-content/themes/digicop/libraries/magnific-popup/jquery.magnific-popup.min.js?ver=5.6' id='magnific-popup-js'></script>
+<script src='https://digicop.designervily.com/wp-content/themes/digicop/libraries/sticky-toolkit/jquery.sticky-kit.min.js?ver=5.6' id='jquery-sticky-js'></script>
+<script id='dsvy-core-script-js-extra'>
+var dsvy_js_variables = {"responsive":"1200"};
+</script>
+<script src='https://digicop.designervily.com/wp-content/themes/digicop/js/core.min.js?ver=5.6' id='dsvy-core-script-js'></script>
+<script src='https://digicop.designervily.com/wp-content/themes/digicop/libraries/isotope/isotope.pkgd.min.js?ver=5.6' id='isotope-js'></script>
+<link rel="https://api.w.org/" href="https://digicop.designervily.com/wp-json/" /><link rel="alternate" type="application/json" href="https://digicop.designervily.com/wp-json/wp/v2/pages/12608" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://digicop.designervily.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://digicop.designervily.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.6" />
+<link rel="canonical" href="https://digicop.designervily.com/" />
+<link rel='shortlink' href='https://digicop.designervily.com/' />
+<link rel="alternate" type="application/json+oembed" href="https://digicop.designervily.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdigicop.designervily.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://digicop.designervily.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdigicop.designervily.com%2F&#038;format=xml" />
+<style>.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><meta name="generator" content="Powered by Slider Revolution 6.3.5 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<link rel="icon" href="https://digicop.designervily.com/wp-content/uploads/2020/06/cropped-fevicon-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://digicop.designervily.com/wp-content/uploads/2020/06/cropped-fevicon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://digicop.designervily.com/wp-content/uploads/2020/06/cropped-fevicon-180x180.png" />
+<meta name="msapplication-TileImage" content="https://digicop.designervily.com/wp-content/uploads/2020/06/cropped-fevicon-270x270.png" />
+<script>function setREVStartSize(e){
+			//window.requestAnimationFrame(function() {				 
+				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;	
+				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;	
+				try {								
+					var pw = document.getElementById(e.c).parentNode.offsetWidth,
+						newh;
+					pw = pw===0 || isNaN(pw) ? window.RSIW : pw;
+					e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+					e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+					e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+					e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+					e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+					e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);		
+					if(e.layout==="fullscreen" || e.l==="fullscreen") 						
+						newh = Math.max(e.mh,window.RSIH);					
+					else{					
+						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];					
+						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+											
+						var nl = new Array(e.rl.length),
+							ix = 0,						
+							sl;					
+						e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+						e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;					
+						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+						sl = nl[0];									
+						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}															
+						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);					
+						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+					}				
+					if(window.rs_init_css===undefined) window.rs_init_css = document.head.appendChild(document.createElement("style"));					
+					document.getElementById(e.c).height = newh+"px";
+					window.rs_init_css.innerHTML += "#"+e.c+"_wrapper { height: "+newh+"px }";				
+				} catch(e){
+					console.log("Failure at Presize of Slider:" + e)
+				}					   
+			//});
+		  };</script>
+</head>
+<body class="home page-template-default page page-id-12608 dsvy-sidebar-no elementor-default elementor-kit-6 elementor-page elementor-page-12608">
+<div id="page" class="site dsvy-parent-header-style-2">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+	<header id="masthead" class="site-header dsvy-header-style-2">
+		<div class="dsvy-header-overlay">
+	<div class="dsvy-header-height-wrapper">
+		<div class="dsvy-header-inner dsvy-sticky-logo-yes dsvy-responsive-logo-no dsvy-responsive-header-bgcolor-white dsvy-header-wrapper dsvy-bg-color-transparent dsvy-header-sticky-yes dsvy-sticky-type- dsvy-sticky-bg-color-white">
+							<div class="d-flex justify-content-between align-items-center dsvy-header-content">
+					<div class="dsvy-logo-menuarea">
+						<div class="site-branding dsvy-logo-area">
+							<div class="wrap">
+								<!-- Logo area -->
+								<h1 class="site-title"><a href="https://digicop.designervily.com/" rel="home"><span class="site-title-text">Digicop - Security And CCTV WordPress Theme</span><img class="dsvy-main-logo" src="http://digicop.designervily.com/wp-content/uploads/2020/06/logo-1.png" alt="Digicop" title="Digicop" /><img class="dsvy-sticky-logo" src="http://digicop.designervily.com/wp-content/uploads/2020/06/logo-2.png" alt="Digicop" title="Digicop" /></a></h1>							</div><!-- .wrap -->
+						</div><!-- .site-branding -->						
+						<!-- Top Navigation Menu -->
+						<div class="navigation-top">
+							<button id="menu-toggle" class="nav-menu-toggle">								
+								<i class="dsvy-base-icon-menu"></i>						
+							</button>								
+							<div class="wrap">
+								<nav id="site-navigation" class="main-navigation dsvy-navbar  dsvy-main-active-color-globalcolor dsvy-dropdown-active-color-globalcolor" aria-label="Top Menu">
+									<div class="menu-main-menu-container"> <ul id="dsvy-top-menu" class="menu"> <li id="menu-item-12706" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12706"> <a href="#demos">Demos</a> </li>
+<li id="menu-item-12707" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12707"> <a target="_blank" rel="noopener" href="https://support.designervily.com/">Support</a> </li>
+<li id="menu-item-12708" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12708"> <a target="_blank" rel="noopener" href="http://digicop.designervily.com/docs/">Documentation</a> </li>
+</ul> </div>								</nav><!-- #site-navigation -->
+							</div><!-- .wrap -->
+						</div><!-- .navigation-top -->
+					</div>
+					<div class="dsvy-right-box">
+																							</div>
+				</div><!-- .justify-content-between -->
+		</div><!-- .dsvy-header-inner -->
+	</div><!-- .dsvy-header-height-wrapper -->
+</div>
+		<div class="dsvy-slider-area">
+			<!-- START introslider REVOLUTION SLIDER 6.3.5 --><p class="rs-p-wp-fix"></p>
+			<rs-module-wrap id="rev_slider_2_1_wrapper" data-source="gallery" style="background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
+				<rs-module id="rev_slider_2_1" style="" data-version="6.3.5">
+					<rs-slides>
+						<rs-slide data-key="rs-2" data-title="Slide" data-anim="ei:d;eo:d;s:600;r:0;t:fade;sl:d;">
+							<img src="//digicop.designervily.com/wp-content/uploads/2020/06/slider-bg.jpg" title="slider-bg" width="1920" height="635" data-bg="p:center top;f:auto;" class="rev-slidebg" data-no-retina>
+<!--
+							--><rs-layer
+								id="slider-2-slide-2-layer-0" 
+								data-type="text"
+								data-color="#1a1a1a"
+								data-rsp_ch="on"
+								data-xy="xo:50px,43px,30px,128px;yo:244px,213px,183px,153px;"
+								data-text="s:60,52,40,30;l:70,61,50,40;fw:700;"
+								data-frame_0="x:-50,-43,-32,-19;"
+								data-frame_1="st:940;sp:1000;sR:940;"
+								data-frame_999="o:0;st:w;sR:7060;"
+								style="z-index:12;font-family:Barlow Condensed;"
+							>Security And CCTV <br/>
+WordPress Theme 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-2-slide-2-layer-12" 
+								data-type="text"
+								data-rsp_ch="on"
+								data-xy="xo:50px,43px,32px,19px;yo:50px,43px,32px,19px;"
+								data-text="w:normal;s:20,17,12,7;l:25,21,15,9;"
+								data-frame_999="o:0;st:w;sR:8700;"
+								style="z-index:14;font-family:Roboto;"
+							> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-2-slide-2-layer-14" 
+								data-type="shape"
+								data-rsp_ch="on"
+								data-xy="x:c;y:b;yo:-70px,-18px,-116px,-102px;"
+								data-text="w:normal;s:20,17,12,7;l:0,21,15,9;"
+								data-dim="w:1170px,1024px,778px,480px;h:737px,645px,490px,302px;"
+								data-frame_999="o:0;st:w;sR:8700;"
+								style="z-index:9;background-color:#ffffff;"
+							> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-2-slide-2-layer-15" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="xo:960px,840px,638px,396px;yo:122px,141px,126px,150px;"
+								data-text="w:normal;s:20,17,12,7;l:0,21,15,9;"
+								data-dim="w:209px,182px,138px,85px;h:164px,143px,108px,66px;"
+								data-frame_999="o:0;st:w;sR:8700;"
+								style="z-index:16;"
+							><img src="//digicop.designervily.com/wp-content/uploads/2020/06/slide-05-new.png" alt="slide-05-new" width="209" height="164" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-2-slide-2-layer-17" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="xo:50px,43px,32px,19px;yo:170px,164px,142px,169px;"
+								data-text="w:normal;s:20,17,12,7;l:0,21,15,9;"
+								data-dim="w:108px,94px,71px,43px;h:39px,34px,25px,15px;"
+								data-frame_0="x:-50,-43,-32,-19;"
+								data-frame_1="st:560;sp:1000;sR:560;"
+								data-frame_999="o:0;st:w;sR:7440;"
+								style="z-index:13;"
+							><img src="//digicop.designervily.com/wp-content/uploads/2020/06/slide-06.png" alt="slide-06" width="108" height="39" data-no-retina> 
+							</rs-layer><!--
+
+							--><a
+								id="slider-2-slide-2-layer-19" 
+								class="rs-layer rev-btn"
+								href="https://themeforest.net/item/digicop-security-and-cctv-wordpress-theme/27582978?s_rank=1" target="_blank" rel="nofollow noopener"
+								data-type="button"
+								data-rsp_ch="on"
+								data-xy="xo:50px,43px,176px,685px;yo:414px,362px,331px,197px;"
+								data-text="w:normal;s:14,12,13,13;l:55,48,50,45;ls:1px,0px,0px,1px;fw:700;"
+								data-dim="minh:0px,none,none,none;"
+								data-padding="r:45,39,30,19;l:45,39,30,19;"
+								data-frame_0="x:-50,-43,-32,-19;"
+								data-frame_1="st:940;sp:1000;sR:940;"
+								data-frame_999="o:0;st:w;sR:7060;"
+								data-frame_hover="bgc:#0c121d;bor:0px,0px,0px,0px;bri:120%;"
+								style="z-index:11;background-color:#fcaf17;font-family:Barlow Condensed;text-transform:uppercase;"
+							>Buy Now 
+							</a><!--
+
+							--><rs-layer
+								id="slider-2-slide-2-layer-20" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="yo:123px,144px,97px,149px;"
+								data-text="w:normal;s:20,17,12,7;l:0,21,15,9;"
+								data-dim="w:1170px,1024px,778px,480px;h:670px,586px,445px,274px;"
+								data-frame_999="o:0;st:w;sR:8700;"
+								style="z-index:10;"
+							><img src="//digicop.designervily.com/wp-content/uploads/2020/06/slide-07.png" alt="slide-07" width="1170" height="670" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-2-slide-2-layer-21" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="xo:633px,554px,420px,574px;yo:159px,154px,135px,76px;"
+								data-text="w:normal;s:20,17,12,7;l:0,21,15,9;"
+								data-dim="w:430px,376px,285px,175px;h:225px,196px,148px,91px;"
+								data-frame_0="y:-100%;"
+								data-frame_0_mask="u:t;"
+								data-frame_1="st:560;sp:1200;sR:560;"
+								data-frame_1_mask="u:t;"
+								data-frame_999="o:0;st:w;sR:7240;"
+								style="z-index:15;"
+							><img src="//digicop.designervily.com/wp-content/uploads/2020/06/slide-01.png" alt="slide-01" width="430" height="225" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-2-slide-2-layer-23" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="xo:675px,590px,448px,112px;yo:435px,380px,288px,239px;"
+								data-text="w:normal;s:20,17,12,7;l:0,21,15,9;"
+								data-dim="w:495px,433px,328px,202px;h:332px,290px,220px,135px;"
+								data-frame_0="x:50,43,32,19;"
+								data-frame_1="st:390;sp:1200;sR:390;"
+								data-frame_999="o:0;st:w;sR:7410;"
+								style="z-index:17;"
+							><img src="//digicop.designervily.com/wp-content/uploads/2020/06/slide-04-new.png" alt="slide-04-new" width="495" height="332" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-2-slide-2-layer-24" 
+								data-type="shape"
+								data-rsp_ch="on"
+								data-xy="x:c;y:b;"
+								data-text="w:normal;s:20,17,12,7;l:0,21,15,9;"
+								data-dim="w:1920px,1680px,1276px,787px;h:160px,140px,106px,65px;"
+								data-frame_999="o:0;st:w;sR:8700;"
+								style="z-index:8;background-color:#f6f6f6;"
+							> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-2-slide-2-layer-25" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="xo:50px,43px,32px,791px;yo:522px,456px,346px,59px;"
+								data-text="w:normal;s:20,17,12,7;l:0,21,15,9;"
+								data-dim="w:401px,350px,265px,163px;h:240px,210px,159px,98px;"
+								data-frame_999="o:0;st:w;sR:8700;"
+								style="z-index:18;"
+							><img src="//digicop.designervily.com/wp-content/uploads/2020/06/slide-02.png" alt="slide-02" width="401" height="240" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-2-slide-2-layer-26" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="xo:0,0,0,10px;yo:528px,462px,351px,244px;"
+								data-text="w:normal;s:20,17,12,7;l:0,21,15,9;"
+								data-dim="w:223px,195px,148px,91px;h:262px,229px,173px,106px;"
+								data-frame_0="y:100%;"
+								data-frame_0_mask="u:t;"
+								data-frame_1="st:390;sp:1200;sR:390;"
+								data-frame_1_mask="u:t;"
+								data-frame_999="o:0;st:w;sR:7410;"
+								style="z-index:20;"
+							><img src="//digicop.designervily.com/wp-content/uploads/2020/06/slide-08.png" alt="slide-08" width="223" height="262" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-2-slide-2-layer-27" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:c;xo:0,0,0,580px;y:m;yo:160px,140px,106px,66px;"
+								data-text="w:normal;s:20,17,12,7;l:0,21,15,9;"
+								data-dim="w:140px,122px,92px,56px;h:264px,231px,175px,107px;"
+								data-frame_1="e:power4.inOut;st:390;sp:1200;sR:390;"
+								data-frame_999="o:0;st:w;sR:7410;"
+								style="z-index:19;"
+							><img src="//digicop.designervily.com/wp-content/uploads/2020/06/slide-03.png" alt="slide-03" width="140" height="264" data-no-retina> 
+							</rs-layer><!--
+-->						</rs-slide>
+					</rs-slides>
+				</rs-module>
+				<script>
+					setREVStartSize({c: 'rev_slider_2_1',rl:[1240,1024,778,480],el:[790,768,500,350],gw:[1170,1024,778,480],gh:[790,768,500,350],type:'standard',justify:'',layout:'fullwidth',mh:"0"});
+					var	revapi2,
+						tpj;
+					function revinit_revslider21() {
+					jQuery(function() {
+						tpj = jQuery;
+						revapi2 = tpj("#rev_slider_2_1");
+						if(revapi2==undefined || revapi2.revolution == undefined){
+							revslider_showDoubleJqueryError("rev_slider_2_1");
+						}else{
+							revapi2.revolution({
+								sliderLayout:"fullwidth",
+								visibilityLevels:"1240,1024,778,480",
+								gridwidth:"1170,1024,778,480",
+								gridheight:"790,768,500,350",
+								spinner:"spinner0",
+								perspective:600,
+								perspectiveType:"local",
+								editorheight:"790,768,500,350",
+								responsiveLevels:"1240,1024,778,480",
+								progressBar:{disableProgressBar:true},
+								navigation: {
+									onHoverStop:false
+								},
+								fallbacks: {
+									allowHTML5AutoPlayOnAndroid:true
+								},
+							});
+						}
+						
+					});
+					} // End of RevInitScript
+				var once_revslider21 = false;
+				if (document.readyState === "loading") {document.addEventListener('readystatechange',function() { if((document.readyState === "interactive" || document.readyState === "complete") && !once_revslider21 ) { once_revslider21 = true; revinit_revslider21();}});} else {once_revslider21 = true; revinit_revslider21();}
+				</script>
+			</rs-module-wrap>
+			<!-- END REVOLUTION SLIDER -->
+</div>			</header><!-- #masthead -->
+	<div class="site-content-contain ">
+		<div class="site-content-wrap">
+			<div id="content" class="site-content container">
+				
+								<div class="dsvy-header-search-form-wrapper">
+					<div class="dsvy-search-close"><i class="dsvy-base-icon-cancel"></i></div>
+										<form role="search" method="get" class="search-form" action="https://digicop.designervily.com/">
+						<label for="search-form-6009f91780612">
+							<span class="screen-reader-text">Search for:</span>
+						</label>
+						<input type="search" id="search-form-6009f91780612" class="search-field" placeholder="Write Search Keyword &amp; Press Enter" value="" name="s" />
+						<button type="submit" class="search-submit">Search</button>
+					</form>
+				</div><div id="primary" class="content-area ">
+	<main id="main" class="site-main dsvy-page-content-wrapper">
+					<div id="post-12608" class="post-12608 page type-page status-publish hentry">
+				<div class="entry-content">
+							<div data-elementor-type="wp-page" data-elementor-id="12608" class="elementor elementor-12608" data-elementor-settings="[]">
+							<div class="elementor-section-wrap">
+							<div class="elementor-section elementor-top-section elementor-element elementor-element-31859d0 dsvy-bg-color-yes dsvy-elementor-bg-color-light elementor-section-stretched dsvy-col-stretched-none dsvy-bg-color-over-image elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="31859d0" data-element_type="section" id="demos" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e8ffd3f dsvy-bg-color-over-image" data-id="e8ffd3f" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-3b7d3e7 dsvy-align-center elementor-widget elementor-widget-dsvy_heading" data-id="3b7d3e7" data-element_type="widget" data-widget_type="dsvy_heading.default">
+				<div class="elementor-widget-container">
+				<div class="dsvy-heading-subheading center-align dsvy-reverse-heading-yes"><h4 class="dsvy-element-subtitle">
+			
+				Homepage
+			
+			</h4>
+		<h2 class="dsvy-element-title">
+			
+				03 Unique HomePage
+			
+			</h2>
+		</div>		</div>
+				</div>
+				<div class="elementor-section elementor-inner-section elementor-element elementor-element-b7a9aa4 elementor-section-full_width dsvy-col-stretched-none dsvy-bg-color-over-image elementor-section-height-default elementor-section-height-default" data-id="b7a9aa4" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-937c3a6 dsvy-bg-color-over-image" data-id="937c3a6" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-8e46e81 elementor-widget elementor-widget-html" data-id="8e46e81" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			<div class="dsvy-thumbnail" > 
+    <a class="dsvy-hover-wrap demo1" href="http://digicop.designervily.com/demo1/" target="_blank"></a>    
+   	<div class="dsvy-title-cat-wrap text-center">		       
+	    <a href="http://digicop.designervily.com/demo1/" target=" _blank" title="First Demo"><strong>01.</strong> CCTV Security</a>      
+	</div>
+</div>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-111b73e dsvy-bg-color-over-image" data-id="111b73e" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-41ffc47 elementor-widget elementor-widget-html" data-id="41ffc47" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			<div class="dsvy-thumbnail" > 
+    <a class="dsvy-hover-wrap demo2" href="http://digicop.designervily.com/demo2/" target="_blank"></a>    
+   	<div class="dsvy-title-cat-wrap text-center">		       
+	    <a href="http://digicop.designervily.com/demo2/" target=" _blank" title="Second Demo"><strong>02.</strong> Security Guard</a>      
+	</div>
+</div>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-5ca9376 dsvy-bg-color-over-image" data-id="5ca9376" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-a5255ea elementor-widget elementor-widget-html" data-id="a5255ea" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			<div class="dsvy-thumbnail" > 
+    <a class="dsvy-hover-wrap demo3" href="http://digicop.designervily.com/demo3/" target="_blank"></a>    
+   	<div class="dsvy-title-cat-wrap text-center">		       
+	    <a href="http://digicop.designervily.com/demo3/" target=" _blank" title="Third Demo"><strong>03.</strong> Fire Fighter </a>      
+	</div>
+</div>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</div>
+					</div>
+		</div>
+							</div>
+		</div>
+				<div class="elementor-section elementor-top-section elementor-element elementor-element-5740cdb dsvy-bg-color-yes dsvy-elementor-bg-color-globalcolor elementor-section-stretched dsvy-col-stretched-none dsvy-bg-color-over-image elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5740cdb" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d4a9e5c dsvy-bg-color-over-image" data-id="d4a9e5c" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<section class="elementor-section elementor-inner-section elementor-element elementor-element-d8ba50b dsvy-col-stretched-none dsvy-bg-color-over-image elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d8ba50b" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-54a4700 dsvy-bg-color-over-image" data-id="54a4700" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-9c72b1c elementor-widget elementor-widget-dsvy_fid_element" data-id="9c72b1c" data-element_type="widget" data-widget_type="dsvy_fid_element.default">
+				<div class="elementor-widget-container">
+			<div class="designervily-ele designervily-ele-fid designervily-ele-fid-style-2 "><div class="dsvy-fld-contents">
+	<h4 class="dsvy-fid-inner">
+				<span class="dsvy-number-rotate" data-appear-animation="animateDigits" data-from="0" data-to="3" data-interval="5" data-before="" data-before-style="" data-after="" data-after-style="">
+				3		</span>
+		<span class="dsvy-fid-sub"></span>
+	</h4>
+	<h3 class="dsvy-fid-title"><span>Homepage<br></span></h3>
+</div><!-- .dsvy-fld-contents -->
+</div>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-8ad7410 dsvy-bg-color-over-image" data-id="8ad7410" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-3636adf elementor-widget elementor-widget-dsvy_fid_element" data-id="3636adf" data-element_type="widget" data-widget_type="dsvy_fid_element.default">
+				<div class="elementor-widget-container">
+			<div class="designervily-ele designervily-ele-fid designervily-ele-fid-style-2 "><div class="dsvy-fld-contents">
+	<h4 class="dsvy-fid-inner">
+				<span class="dsvy-number-rotate" data-appear-animation="animateDigits" data-from="0" data-to="50" data-interval="5" data-before="" data-before-style="" data-after="" data-after-style="">
+				50		</span>
+		<span class="dsvy-fid-sub"></span>
+	</h4>
+	<h3 class="dsvy-fid-title"><span>Template<br></span></h3>
+</div><!-- .dsvy-fld-contents -->
+</div>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-dc31ffd dsvy-bg-color-over-image" data-id="dc31ffd" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-9ea9e28 elementor-widget elementor-widget-dsvy_fid_element" data-id="9ea9e28" data-element_type="widget" data-widget_type="dsvy_fid_element.default">
+				<div class="elementor-widget-container">
+			<div class="designervily-ele designervily-ele-fid designervily-ele-fid-style-2 "><div class="dsvy-fld-contents">
+	<h4 class="dsvy-fid-inner">
+				<span class="dsvy-number-rotate" data-appear-animation="animateDigits" data-from="0" data-to="4" data-interval="5" data-before="" data-before-style="" data-after="" data-after-style="">
+				4		</span>
+		<span class="dsvy-fid-sub"></span>
+	</h4>
+	<h3 class="dsvy-fid-title"><span>Header<br></span></h3>
+</div><!-- .dsvy-fld-contents -->
+</div>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-238cb77 dsvy-bg-color-over-image" data-id="238cb77" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-4cff04d elementor-widget elementor-widget-dsvy_fid_element" data-id="4cff04d" data-element_type="widget" data-widget_type="dsvy_fid_element.default">
+				<div class="elementor-widget-container">
+			<div class="designervily-ele designervily-ele-fid designervily-ele-fid-style-2 "><div class="dsvy-fld-contents">
+	<h4 class="dsvy-fid-inner">
+				<span class="dsvy-number-rotate" data-appear-animation="animateDigits" data-from="0" data-to="13" data-interval="5" data-before="" data-before-style="" data-after="" data-after-style="">
+				13		</span>
+		<span class="dsvy-fid-sub"></span>
+	</h4>
+	<h3 class="dsvy-fid-title"><span>Innerpages<br></span></h3>
+</div><!-- .dsvy-fld-contents -->
+</div>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-20 elementor-inner-column elementor-element elementor-element-a77110e dsvy-bg-color-over-image" data-id="a77110e" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-0f9e76c elementor-widget elementor-widget-dsvy_fid_element" data-id="0f9e76c" data-element_type="widget" data-widget_type="dsvy_fid_element.default">
+				<div class="elementor-widget-container">
+			<div class="designervily-ele designervily-ele-fid designervily-ele-fid-style-2 "><div class="dsvy-fld-contents">
+	<h4 class="dsvy-fid-inner">
+				<span class="dsvy-number-rotate" data-appear-animation="animateDigits" data-from="0" data-to="4" data-interval="5" data-before="" data-before-style="" data-after="" data-after-style="">
+				4		</span>
+		<span class="dsvy-fid-sub"></span>
+	</h4>
+	<h3 class="dsvy-fid-title"><span>iconpacks<br></span></h3>
+</div><!-- .dsvy-fld-contents -->
+</div>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</div>
+				<div class="elementor-section elementor-top-section elementor-element elementor-element-70e88f5 dsvy-col-stretched-right elementor-section-content-middle dsvy-right-bg-50 dsvy-bg-color-over-image elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="70e88f5" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3606741 dsvy-bg-color-over-image" data-id="3606741" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<section class="elementor-section elementor-inner-section elementor-element elementor-element-b1a7d1e elementor-section-content-middle dsvy-col-stretched-none dsvy-bg-color-over-image elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b1a7d1e" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-be6d712 dsvy-bg-color-over-image" data-id="be6d712" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-b5e87c7 elementor-widget elementor-widget-image" data-id="b5e87c7" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="772" height="561" src="https://digicop.designervily.com/wp-content/uploads/2020/06/img-01.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://digicop.designervily.com/wp-content/uploads/2020/06/img-01.png 772w, https://digicop.designervily.com/wp-content/uploads/2020/06/img-01-300x218.png 300w, https://digicop.designervily.com/wp-content/uploads/2020/06/img-01-768x558.png 768w, https://digicop.designervily.com/wp-content/uploads/2020/06/img-01-770x561.png 770w" sizes="(max-width: 772px) 100vw, 772px" />											</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-34b4b87 dsvy-bg-color-over-image" data-id="34b4b87" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-c99ff12 dsvy-align-left elementor-widget elementor-widget-dsvy_heading" data-id="c99ff12" data-element_type="widget" data-widget_type="dsvy_heading.default">
+				<div class="elementor-widget-container">
+				<div class="dsvy-heading-subheading left-align dsvy-reverse-heading-yes"><h4 class="dsvy-element-subtitle">
+			
+				Page Builder
+			
+			</h4>
+		<h2 class="dsvy-element-title">
+			
+				Elementor Page <br>Builder
+			
+			</h2>
+		<div class="dsvy-heading-desc">Elementor is a very light &amp; powerful front-end page builder. Enjoy the intuitive interface and flexibility is one of the most user-friendly page builders for WordPress.  A lot of other things are included.</div></div>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</div>
+				<div class="elementor-section elementor-top-section elementor-element elementor-element-a69c40d dsvy-text-color-white elementor-section-stretched dsvy-col-stretched-none dsvy-bg-color-over-image elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a69c40d" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1cd504c dsvy-bg-color-over-image" data-id="1cd504c" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-6a8793a dsvy-align-center elementor-widget elementor-widget-dsvy_heading" data-id="6a8793a" data-element_type="widget" data-widget_type="dsvy_heading.default">
+				<div class="elementor-widget-container">
+				<div class="dsvy-heading-subheading center-align dsvy-reverse-heading-yes"><h4 class="dsvy-element-subtitle">
+			
+				Compatible With Plugins
+			
+			</h4>
+		<h2 class="dsvy-element-title">
+			
+				Premium and Compatible<br>
+Plugins
+			
+			</h2>
+		</div>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</div>
+				<div class="elementor-section elementor-top-section elementor-element elementor-element-3d092d9 dsvy-col-stretched-none dsvy-bg-color-over-image elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3d092d9" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-332555e dsvy-bg-color-yes dsvy-elementor-bg-color-white dsvy-bg-color-over-image" data-id="332555e" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-6974216 elementor-widget elementor-widget-image" data-id="6974216" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="47" height="47" src="https://digicop.designervily.com/wp-content/uploads/2020/06/img-02.png" class="attachment-large size-large" alt="" loading="lazy" />											</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-5e9c058 elementor-widget elementor-widget-heading" data-id="5e9c058" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-default">Elementor Page<br>
+Builder</p>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-20af1b3 dsvy-bg-color-yes dsvy-elementor-bg-color-white dsvy-bg-color-over-image" data-id="20af1b3" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-75f6d30 elementor-widget elementor-widget-image" data-id="75f6d30" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="45" height="44" src="https://digicop.designervily.com/wp-content/uploads/2020/06/img-03.png" class="attachment-large size-large" alt="" loading="lazy" />											</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-0ab14ab elementor-widget elementor-widget-heading" data-id="0ab14ab" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-default">Revolution<br> Slider</p>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-dd19fa3 dsvy-bg-color-yes dsvy-elementor-bg-color-white dsvy-bg-color-over-image" data-id="dd19fa3" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-5facb07 elementor-widget elementor-widget-image" data-id="5facb07" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="51" height="54" src="https://digicop.designervily.com/wp-content/uploads/2020/06/img-07.png" class="attachment-large size-large" alt="" loading="lazy" />											</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-c245948 elementor-widget elementor-widget-heading" data-id="c245948" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-default">Kirki <br>Customizer</p>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-0a634d2 dsvy-bg-color-yes dsvy-elementor-bg-color-white dsvy-bg-color-over-image" data-id="0a634d2" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-83e6a86 elementor-widget elementor-widget-image" data-id="83e6a86" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="59" height="58" src="https://digicop.designervily.com/wp-content/uploads/2020/06/img-05.png" class="attachment-large size-large" alt="" loading="lazy" />											</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-7eaeebe elementor-widget elementor-widget-heading" data-id="7eaeebe" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-default">MailChimp</p>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-b4e6f4a dsvy-bg-color-yes dsvy-elementor-bg-color-white dsvy-bg-color-over-image" data-id="b4e6f4a" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-1e1a271 elementor-widget elementor-widget-image" data-id="1e1a271" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="31" height="53" src="https://digicop.designervily.com/wp-content/uploads/2020/06/img-06-n.png" class="attachment-large size-large" alt="" loading="lazy" />											</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-e28f7a9 elementor-widget elementor-widget-heading" data-id="e28f7a9" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-default">Contact Form 7</p>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</div>
+				<div class="elementor-section elementor-top-section elementor-element elementor-element-128ad19 dsvy-bg-color-yes dsvy-elementor-bg-color-light elementor-section-stretched dsvy-col-stretched-none dsvy-bg-color-over-image elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="128ad19" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f0c4e54 dsvy-bg-color-over-image" data-id="f0c4e54" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-section elementor-inner-section elementor-element elementor-element-4c972a8 dsvy-col-stretched-none dsvy-bg-color-over-image elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4c972a8" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-91ec6bb dsvy-bg-color-over-image" data-id="91ec6bb" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-45a669a elementor-widget elementor-widget-dsvy_icon_heading" data-id="45a669a" data-element_type="widget" data-widget_type="dsvy_icon_heading.default">
+				<div class="elementor-widget-container">
+			<div class="dsvy-ihbox dsvy-ihbox-style-1"><div class="dsvy-ihbox-box">
+	<div class="dsvy-ihbox-icon"><div class="dsvy-ihbox-icon-wrapper dsvy-ihbox-icon-type-image"><img src="http://digicop.designervily.com/wp-content/uploads/2020/06/img-08.png" alt="One-Click Demo Import" /></div></div>	<div class="dsvy-ihbox-contents">
+				<h2 class="dsvy-element-title">
+					
+						One-Click Demo Import
+					
+					</h2>
+						
+		<div class="dsvy-heading-desc">Just one click, you can import the demo content of choice and build website within minute as quickly. Start using powerful feature of Digicop.
+</div>			</div><!-- .dsvy-ihbox-contents -->
+</div>
+</div>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-098b0ba dsvy-bg-color-over-image" data-id="098b0ba" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-0ef4dc0 elementor-widget elementor-widget-dsvy_icon_heading" data-id="0ef4dc0" data-element_type="widget" data-widget_type="dsvy_icon_heading.default">
+				<div class="elementor-widget-container">
+			<div class="dsvy-ihbox dsvy-ihbox-style-1"><div class="dsvy-ihbox-box">
+	<div class="dsvy-ihbox-icon"><div class="dsvy-ihbox-icon-wrapper dsvy-ihbox-icon-type-image"><img src="http://digicop.designervily.com/wp-content/uploads/2020/06/img-09.png" alt="Fully Customizable" /></div></div>	<div class="dsvy-ihbox-contents">
+				<h2 class="dsvy-element-title">
+					
+						Fully Customizable
+					
+					</h2>
+						
+		<div class="dsvy-heading-desc">Create with drag &amp; drop WordPress page builder in high speeds. Unlimited colors, fonts, structures hundreds of theme options made.
+</div>			</div><!-- .dsvy-ihbox-contents -->
+</div>
+</div>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-b6754d3 dsvy-bg-color-over-image" data-id="b6754d3" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-87a6121 elementor-widget elementor-widget-dsvy_icon_heading" data-id="87a6121" data-element_type="widget" data-widget_type="dsvy_icon_heading.default">
+				<div class="elementor-widget-container">
+			<div class="dsvy-ihbox dsvy-ihbox-style-1"><div class="dsvy-ihbox-box">
+	<div class="dsvy-ihbox-icon"><div class="dsvy-ihbox-icon-wrapper dsvy-ihbox-icon-type-image"><img src="http://digicop.designervily.com/wp-content/uploads/2020/06/img-11.png" alt="Color Scheme Editor" /></div></div>	<div class="dsvy-ihbox-contents">
+				<h2 class="dsvy-element-title">
+					
+						Color Scheme Editor
+					
+					</h2>
+						
+		<div class="dsvy-heading-desc">You can easily controls various elements colors of your website using color picker. Your website look grand by selecting your own colors.
+</div>			</div><!-- .dsvy-ihbox-contents -->
+</div>
+</div>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-3a0774b dsvy-col-stretched-none dsvy-bg-color-over-image elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3a0774b" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-414b704 dsvy-bg-color-over-image" data-id="414b704" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-4c23126 elementor-widget elementor-widget-dsvy_icon_heading" data-id="4c23126" data-element_type="widget" data-widget_type="dsvy_icon_heading.default">
+				<div class="elementor-widget-container">
+			<div class="dsvy-ihbox dsvy-ihbox-style-1"><div class="dsvy-ihbox-box">
+	<div class="dsvy-ihbox-icon"><div class="dsvy-ihbox-icon-wrapper dsvy-ihbox-icon-type-image"><img src="http://digicop.designervily.com/wp-content/uploads/2020/06/img-12.png" alt="Responsive &amp; retina ready" /></div></div>	<div class="dsvy-ihbox-contents">
+				<h2 class="dsvy-element-title">
+					
+						Responsive &amp; retina ready
+					
+					</h2>
+						
+		<div class="dsvy-heading-desc"> Your website is certain to look and feel absolutely magnificent, regardless of the device type or the screen size it is being viewed on.</div>			</div><!-- .dsvy-ihbox-contents -->
+</div>
+</div>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-db39fda dsvy-bg-color-over-image" data-id="db39fda" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-4c2737b elementor-widget elementor-widget-dsvy_icon_heading" data-id="4c2737b" data-element_type="widget" data-widget_type="dsvy_icon_heading.default">
+				<div class="elementor-widget-container">
+			<div class="dsvy-ihbox dsvy-ihbox-style-1"><div class="dsvy-ihbox-box">
+	<div class="dsvy-ihbox-icon"><div class="dsvy-ihbox-icon-wrapper dsvy-ihbox-icon-type-image"><img src="http://digicop.designervily.com/wp-content/uploads/2020/06/img-10.png" alt="Lifetime Updates" /></div></div>	<div class="dsvy-ihbox-contents">
+				<h2 class="dsvy-element-title">
+					
+						Lifetime Updates
+					
+					</h2>
+						
+		<div class="dsvy-heading-desc">Get a lifetime free updates to the theme. Update may contain theme improvements, fixes for any bugs or issues.
+</div>			</div><!-- .dsvy-ihbox-contents -->
+</div>
+</div>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-8dd98c3 dsvy-bg-color-over-image" data-id="8dd98c3" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-6ecde35 elementor-widget elementor-widget-dsvy_icon_heading" data-id="6ecde35" data-element_type="widget" data-widget_type="dsvy_icon_heading.default">
+				<div class="elementor-widget-container">
+			<div class="dsvy-ihbox dsvy-ihbox-style-1"><div class="dsvy-ihbox-box">
+	<div class="dsvy-ihbox-icon"><div class="dsvy-ihbox-icon-wrapper dsvy-ihbox-icon-type-image"><img src="http://digicop.designervily.com/wp-content/uploads/2020/06/img-13.png" alt="Support all Major Browsers" /></div></div>	<div class="dsvy-ihbox-contents">
+				<h2 class="dsvy-element-title">
+					
+						Support all Major Browsers
+					
+					</h2>
+						
+		<div class="dsvy-heading-desc">It support across different browsers as expected and degrades gracefully (Google Chrome, Mozilla, Safari, Opera, Microsoft edge)
+</div>			</div><!-- .dsvy-ihbox-contents -->
+</div>
+</div>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</div>
+				<div class="elementor-section elementor-top-section elementor-element elementor-element-49695e8 dsvy-bg-color-yes dsvy-elementor-bg-color-globalcolor dsvy-bg-image-over-color elementor-section-stretched dsvy-col-stretched-none elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="49695e8" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-11340f4 dsvy-bg-color-over-image" data-id="11340f4" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-aa1332c elementor-widget elementor-widget-image" data-id="aa1332c" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="197" height="32" src="https://digicop.designervily.com/wp-content/uploads/2020/06/rating-star.png" class="attachment-large size-large" alt="" loading="lazy" />											</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-d58a272 elementor-widget elementor-widget-heading" data-id="d58a272" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Purchase The Digicop WP Theme<br>
+Now and Make Everything easier</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-c1902b0 dsvy-btn-color-blackish elementor-align-center dsvy-btn-style-flat dsvy-btn-shape-square elementor-widget elementor-widget-button" data-id="c1902b0" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="https://themeforest.net/item/digicop-security-and-cctv-wordpress-theme/27582978?s_rank=1" target="_blank" class="elementor-button-link elementor-button elementor-size-lg" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Buy Now  +</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</div>
+						</div>
+					</div>
+							<h3 class="dsvy-hide">IntroPage</h3>
+				</div><!-- .entry-content -->
+			</div><!-- #post-## -->
+							</main><!-- #main -->
+</div><!-- #primary -->
+								</div><!-- #content -->
+			</div><!-- .site-content-wrap -->
+		<footer id="colophon" class="dsvy-footer-section site-footer  dsvy-text-color-white dsvy-bg-color-blackish dsvy-footer-menu-no dsvy-footer-widget-no">
+
+			<div class="dsvy-footer-section dsvy-footer-big-area-wrapper dsvy-bg-color-transparent">
+				<div class="footer-wrap dsvy-footer-big-area">
+					<div class="container">
+
+						<div class="row align-items-center">
+													</div>
+
+					</div>
+				</div>
+			</div>
+
+						<div class="dsvy-footer-section dsvy-footer-text-area  dsvy-bg-color-globalcolor">
+				<div class="container">
+					<div class="dsvy-footer-text-inner">
+
+						<div class="row">
+							<div class="col-md-6"><div class="dsvy-footer-copyright-text-area"> Copyright &copy; 2021 <a href="https://digicop.designervily.com/">Digicop</a>, All Rights Reserved.</div></div><div class="col-md-6"><div class="dsvy-footer-logo-box"><div class="dsvy-footer-logo"><img class="dsvy-footer-logo" src="https://digicop.designervily.com/wp-content/themes/digicop/images/footer-logo.png" alt="Digicop" title="Digicop" /></div></div></div>						</div>
+					</div>	
+
+				</div>
+			</div>
+		</footer><!-- #colophon -->
+	</div><!-- .site-content-contain -->
+</div><!-- #page -->
+<a href="#" class="scroll-to-top"><i class="dsvy-base-icon-up-open-big"></i></a>
+<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:700%7CRoboto:400" rel="stylesheet" property="stylesheet" media="all" type="text/css" >
+
+		<script>
+		if(typeof revslider_showDoubleJqueryError === "undefined") {
+			function revslider_showDoubleJqueryError(sliderID) {
+				var err = "<div class='rs_error_message_box'>";
+				err += "<div class='rs_error_message_oops'>Oops...</div>";
+				err += "<div class='rs_error_message_content'>";
+				err += "You have some jquery.js library include that comes after the Slider Revolution files js inclusion.<br>";
+				err += "To fix this, you can:<br>&nbsp;&nbsp;&nbsp; 1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on";
+				err += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jQuery.js inclusion and remove it";
+				err += "</div>";
+			err += "</div>";
+				var slider = document.getElementById(sliderID); slider.innerHTML = err; slider.style.display = "block";
+			}
+		}
+		</script>
+<script src='https://digicop.designervily.com/wp-includes/js/wp-embed.min.js?ver=5.6' id='wp-embed-js'></script>
+<script src='https://digicop.designervily.com/wp-content/themes/digicop/libraries/waypoints/jquery.waypoints.min.js?ver=5.6' id='waypoints-js'></script>
+<script src='https://digicop.designervily.com/wp-content/themes/digicop/libraries/numinate/numinate.min.js?ver=5.6' id='numinate-js'></script>
+<script src='https://digicop.designervily.com/wp-content/themes/digicop/libraries/jquery-circle-progress/circle-progress.min.js?ver=5.6' id='jquery-circle-progress-js'></script>
+<script src='https://digicop.designervily.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.0.16' id='elementor-frontend-modules-js'></script>
+<script src='https://digicop.designervily.com/wp-includes/js/jquery/ui/core.min.js?ver=1.12.1' id='jquery-ui-core-js'></script>
+<script src='https://digicop.designervily.com/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.8.1' id='elementor-dialog-js'></script>
+<script src='https://digicop.designervily.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2' id='elementor-waypoints-js'></script>
+<script src='https://digicop.designervily.com/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6' id='swiper-js'></script>
+<script src='https://digicop.designervily.com/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js?ver=3.0.16' id='share-link-js'></script>
+<script id='elementor-frontend-js-before'>
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"version":"3.0.16","is_static":false,"legacyMode":{"elementWrappers":false},"urls":{"assets":"https:\/\/digicop.designervily.com\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":12608,"title":"Digicop%20%E2%80%93%20Security%20And%20CCTV%20WordPress%20Theme","excerpt":"","featuredImage":false}};
+</script>
+<script src='https://digicop.designervily.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.0.16' id='elementor-frontend-js'></script>
+</body>
+</html>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+
+Served from: digicop.designervily.com @ 2021-01-21 21:58:47 by W3 Total Cache
+-->

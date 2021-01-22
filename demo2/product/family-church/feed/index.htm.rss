@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Family Church	</title>
+	<atom:link href="https://lyfpro.designervily.com/demo2/product/family-church/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lyfpro.designervily.com/demo2/product/family-church/</link>
+	<description>Life Coach and Speaker WordPress Theme</description>
+	<lastBuildDate>Mon, 14 Dec 2020 05:04:40 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.6</generator>
+</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using disk: enhanced (Page is feed) 
+Database Caching 40/41 queries in 0.006 seconds using disk
+
+Served from: lyfpro.designervily.com @ 2021-01-21 22:02:03 by W3 Total Cache
+-->

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Tshirts &#8211; Lyfpro Demo 2</title>
+	<atom:link href="https://lyfpro.designervily.com/demo2/product-category/tshirts/feed/" rel="self" type="application/rss+xml" />
+	<link>https://lyfpro.designervily.com/demo2</link>
+	<description>Life Coach and Speaker WordPress Theme</description>
+	<lastBuildDate>Mon, 14 Dec 2020 05:03:17 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.6</generator>
+
+<image>
+	<url>https://lyfpro.designervily.com/demo2/wp-content/uploads/sites/3/2020/12/cropped-fevicon-32x32.png</url>
+	<title>Tshirts &#8211; Lyfpro Demo 2</title>
+	<link>https://lyfpro.designervily.com/demo2</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>The Drawer</title>
+		<link>https://lyfpro.designervily.com/demo2/product/the-drawer/</link>
+					<comments>https://lyfpro.designervily.com/demo2/product/the-drawer/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Wed, 16 Jan 2019 13:01:53 +0000</pubDate>
+				<guid isPermaLink="false">https://woocommercecore.mystagingwebsite.com/product/long-sleeve-tee/</guid>
+
+					<description><![CDATA[Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper]]></description>
+										<content:encoded><![CDATA[<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lyfpro.designervily.com/demo2/product/the-drawer/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Tai Shadows</title>
+		<link>https://lyfpro.designervily.com/demo2/product/tai-shadows/</link>
+					<comments>https://lyfpro.designervily.com/demo2/product/tai-shadows/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Wed, 16 Jan 2019 13:01:53 +0000</pubDate>
+				<guid isPermaLink="false">https://woocommercecore.mystagingwebsite.com/product/polo/</guid>
+
+					<description><![CDATA[Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.]]></description>
+										<content:encoded><![CDATA[<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://lyfpro.designervily.com/demo2/product/tai-shadows/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using disk: enhanced (Page is feed) 
+Database Caching 45/56 queries in 0.015 seconds using disk
+
+Served from: lyfpro.designervily.com @ 2021-01-21 22:03:45 by W3 Total Cache
+-->
